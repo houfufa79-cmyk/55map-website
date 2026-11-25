@@ -7,3 +7,21 @@ compatibility_date = "2025-11-25"
 [assets]
 directory = "./"
 binding = "ASSETS"
+
+# 可观测性：开启 Workers Logs（100% 采样、调用日志、持久化），
+# Traces 与 Issues（原 issue_detection）关闭。
+# 注意：wrangler 4 配置字段名为 issues，不是 issue_detection；
+# 后者会被判定为非法字段并产生警告。
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+invocation_logs = true
+persist = true
+
+[observability.traces]
+enabled = false
+head_sampling_rate = 1
+persist = true
+
+[observability.issues]
+enabled = false
