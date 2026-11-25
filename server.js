@@ -75,7 +75,7 @@ const server = http.createServer((req, res) => {
   }
 
   if (pathname === '/' || pathname === '/index.html') {
-    sendFile(res, path.join(ROOT, 'app', 'index.html'));
+    sendFile(res, path.join(ROOT, 'index.html'));
     return;
   }
 
