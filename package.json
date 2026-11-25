@@ -1,0 +1,9 @@
+{
+  "name": "55map-report",
+  "version": "1.0.0",
+  "private": true,
+  "description": "五行地图学 · 数字地图导航报告与演示（Node.js 零依赖）",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "doc": {
+    "file": "i55map0813.html",
+    "source": "五行地图学i55map0813.html",
+    "pages": 140,
+    "tocNodes": 279
+  },
+  "elements": {
+    "土": "#B8892B",
+    "木": "#3E7C59",
+    "火": "#C0492F",
+    "水": "#2D6C9E",
+    "金": "#6E7F91"
+  },
+  "chapters": [
+    {
+      "id": "east-asia",
+      "num": "5",
+      "digits": ["5"],
+      "region": "東部亞洲",
+      "regionEn": "East Asia",
+      "element": "土",
+      "star": "螣蛇 · 鬥星",
+      "anchor": "_Toc692750295",
+      "title": "東部亞洲（土）",
+      "page": 23,
+      "notes": "含 ASEAN 東南亞諸國"
+    },
+    {
+      "id": "south-america",
+      "num": "8",
+      "digits": ["8"],
+      "region": "南美洲",
+      "regionEn": "South America",
+      "element": "木",
+      "star": "青龍 · 鱷星",
+      "anchor": "_Toc130432350",
+      "title": "南美洲（木）",
+      "page": 108,
+      "notes": "含澳大利亞、新西蘭"
+    },
+    {
+      "id": "north-america",
+      "num": "7",
+      "digits": ["7"],
+      "region": "北美洲",
+      "regionEn": "North America",
+      "element": "火",
+      "star": "朱雀 · 農星",
+      "anchor": "_Toc423383630",
+      "title": "北美洲（五行火）",
+      "page": 97,
+      "notes": "含格陵蘭、冰島"
+    },
+    {
+      "id": "central-asia",
+      "num": "6",
+      "digits": ["6"],
+      "region": "中部亞洲",
+      "regionEn": "Central Asia",
+      "element": "水",
+      "star": "元武 · 和星",
+      "anchor": "_Toc1489295914",
+      "title": "中部亚洲（水）",
+      "page": 56,
+      "notes": "含緬甸、孟加拉"
+    },
+    {
+      "id": "africa",
+      "num": "10",
+      "digits": ["1", "0"],
+      "region": "非洲 · 阿拉伯半島",
+      "regionEn": "Africa & Arabia",
+      "element": "土",
+      "star": "勾陳 · 滯星",
+      "anchor": "_Toc1459003892",
+      "title": "非洲（土）",
+      "page": 36,
+      "notes": "含沙特、也門、阿曼、阿聯酋、卡塔爾"
+    },
+    {
+      "id": "europe",
+      "num": "9",
+      "digits": ["9"],
+      "region": "歐洲 · 西亞",
+      "regionEn": "Europe & West Asia",
+      "element": "金",
+      "star": "白虎 · 善星",
+      "anchor": "_Toc1051332096",
+      "title": "欧洲-（金）数字 九9",
+      "page": 76,
+      "notes": "含西亞、伊拉克、科威特"
+    }
+  ],
+  "hotspots": [
+    { "digit": "7", "chapter": "north-america", "left": 6.6, "top": 14.3, "width": 6.2, "height": 19.0 },
+    { "digit": "8", "chapter": "south-america", "left": 24.5, "top": 68.3, "width": 6.3, "height": 19.4 },
+    { "digit": "9", "chapter": "europe", "left": 51.6, "top": 23.2, "width": 6.3, "height": 19.2 },
+    { "digit": "0", "chapter": "africa", "left": 52.9, "top": 43.2, "width": 6.3, "height": 19.1 },
+    { "digit": "6", "chapter": "central-asia", "left": 61.3, "top": 33.1, "width": 6.3, "height": 19.4 },
+    { "digit": "5", "chapter": "east-asia", "left": 78.2, "top": 36.4, "width": 6.5, "height": 19.3 },
+    { "digit": "1", "chapter": "africa", "left": 49.7, "top": 62.4, "width": 5.6, "height": 18.7 }
+  ],
+  "overview": [
+    { "title": "五行的河图洛书基本原理", "anchor": "_Toc1915300061", "page": 9 },
+    { "title": "二十八宿舍", "anchor": "_Toc169243133", "page": 12 },
+    { "title": "六大洲五行", "anchor": "_Toc2070274950", "page": 14 },
+    { "title": "六大洲的各分析", "anchor": "_Toc1676125973", "page": 23 }
+  ]
+}
