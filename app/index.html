@@ -23,6 +23,7 @@
       <a href="#toc">目录索引</a>
       <a href="#about">说明</a>
     </nav>
+    <a class="btn btn--blog" href="https://i55map.blogspot.com" target="_blank" rel="noopener">Blog <span aria-hidden="true">↗</span></a>
     <button class="btn btn--ghost" id="presentBtn" type="button">演示模式 <kbd>P</kbd></button>
   </div>
 </header>
@@ -155,19 +156,19 @@
 
     <div class="grid-3">
       <article class="card">
-        <h3>运行方式</h3>
-        <p>项目零依赖，只用 Node.js 内置模块：</p>
-        <pre><code>cd 55map-website
-node server.js
-# http://localhost:5173</code></pre>
-        <p class="muted">端口可用 <code>PORT=8080 node server.js</code> 覆盖。</p>
+        <h3>部署与运行</h3>
+        <p>线上托管在 Cloudflare Workers，静态资源由 Workers Static Assets 直接分发：</p>
+        <pre><code>npx wrangler deploy   # 部署
+npx wrangler dev      # 本地模拟线上环境</code></pre>
+        <p class="muted">不用 Workers 时也可零依赖本地调试：<code>node server.js</code>（默认 8787 端口，<code>PORT</code> 可覆盖）。</p>
       </article>
       <article class="card">
-        <h3>为什么是服务器</h3>
+        <h3>为什么需要服务端</h3>
         <p>
           原文档是 <strong>gb2312</strong> 编码、并依赖同名 <code>.files</code> 图片目录（约 123 MB）。
-          服务端原样输出字节、保留编码声明，锚点跳转与图片才能全部正常。
+          无论 Worker 还是本地服务都按原始字节输出、保留编码声明，锚点跳转与图片才能全部正常。
         </p>
+        <p class="muted">Worker 里仅保留 <code>/i55map0813.html</code> 等两个英文别名，其余全部走静态资源。</p>
       </article>
       <article class="card">
         <h3>修改映射</h3>

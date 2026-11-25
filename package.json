@@ -1,9 +1,14 @@
 {
   "name": "55map-report",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
-  "description": "五行地图学 · 数字地图导航报告与演示（Node.js 零依赖）",
+  "description": "五行地图学 · 数字地图导航报告与演示（Cloudflare Workers + 零依赖 Node 本地服务）",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.90.0"
   }
 }

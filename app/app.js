@@ -235,11 +235,12 @@
     var s5 = el('section', 'slide');
     s5.innerHTML =
       '<p class="slide__kicker">使用说明</p>' +
-      '<h2>本地运行与自定义</h2>' +
-      '<p>零依赖 Node.js 服务：<code>node server.js</code>，默认端口 5173。' +
-      '数字与章节的映射、热区位置都写在 <code>data/chapters.json</code>，修改后刷新即可。</p>' +
-      '<p>原文档保持 gb2312 编码原样输出，因此锚点与 123 MB 图片资源都能正常工作。</p>' +
-      '<div class="stats"><span class="stat"><b>node</b>server.js</span><span class="stat"><b>P</b>演示快捷键</span></div>';
+      '<h2>部署、运行与自定义</h2>' +
+      '<p>线上部署到 Cloudflare Workers：<code>npx wrangler deploy</code>，本地模拟用 <code>npx wrangler dev</code>；' +
+      '不用 Workers 时可运行零依赖服务 <code>node server.js</code>（默认 8787 端口）。</p>' +
+      '<p>数字与章节的映射、热区位置都写在 <code>data/chapters.json</code>，修改后刷新即可；' +
+      '原文档保持 gb2312 编码原样输出，锚点与 123 MB 图片资源都能正常工作。</p>' +
+      '<div class="stats"><span class="stat"><b>wrangler</b>deploy</span><span class="stat"><b>P</b>演示快捷键</span></div>';
     stage.appendChild(s5);
 
     deck.slides = $$('.slide', stage);

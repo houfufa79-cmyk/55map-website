@@ -1,0 +1,12 @@
+# 不作为静态资源上传的文件（Worker 脚本与本地开发/配置文件）
+wrangler.toml
+.assetsignore
+worker.js
+server.js
+package.json
+package-lock.json
+node_modules
+.git
+.gitignore
+.screenshots
+.trae-html-share-packages

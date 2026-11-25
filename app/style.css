@@ -132,6 +132,15 @@ kbd {
 .btn--solid:hover { background: var(--accent2); color: #fff; }
 .btn--ghost { background: transparent; color: var(--ink); border-color: var(--rule); }
 .btn--ghost:hover { border-color: var(--ink); color: var(--ink); }
+.btn--blog {
+  background: var(--accent);
+  color: #fdf8ee;
+  border-color: var(--accent);
+  font-weight: 600;
+}
+.btn--blog:hover { background: #8a5d14; border-color: #8a5d14; color: #fff; }
+.btn--blog span { font-size: 12px; transition: transform 0.15s ease; }
+.btn--blog:hover span { transform: translate(2px, -2px); }
 
 /* ---------- Hero ---------- */
 .hero {

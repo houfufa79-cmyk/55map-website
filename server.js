@@ -10,7 +10,8 @@
  *   /i55map0813.files/*  原文档图片资源（别名）
  *   /五行地图学i55map0813.files/*  原文档自带的相对资源路径
  *
- * 启动：node server.js  （默认 http://localhost:5173）
+ * 启动：node server.js  （默认 http://localhost:8787，与 wrangler dev 一致；
+ *                         线上部署使用 Cloudflare Workers，见 worker.js / wrangler.toml）
  */
 const http = require('http');
 const fs = require('fs');
@@ -18,7 +19,7 @@ const path = require('path');
 const url = require('url');
 
 const ROOT = __dirname;
-const PORT = Number(process.env.PORT) || 5173;
+const PORT = Number(process.env.PORT) || 8787;
 
 const DOC_HTML = '五行地图学i55map0813.html';
 const DOC_FILES = '五行地图学i55map0813.files';

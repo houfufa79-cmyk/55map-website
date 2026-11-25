@@ -1,0 +1,9 @@
+name = "55map-website"
+main = "worker.js"
+compatibility_date = "2025-11-25"
+
+# 站点静态资源：直接以项目根目录作为资源目录，
+# 不上传的文件见 .assetsignore（worker 脚本、本地服务、配置等）。
+[assets]
+directory = "./"
+binding = "ASSETS"
